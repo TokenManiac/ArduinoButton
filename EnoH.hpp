@@ -10,30 +10,6 @@
 	=== REFER TO MIT LICENSE === > https://github.com/SyntaxMenace/ArduinoButton/blob/main/LICENSE
 */
 
-#if _MSC_VER // Arduino like stuff in Microsoft Visual Studio
-	#include <iostream>
-	#include <thread>
-	#include <chrono>
-	
-	#define Log(x) std::cout << x << std::endl;
-	
-	typedef uint8_t byte;
-	
-	using namespace std::chrono;
-	
-	inline uint64_t millis() {
-		return duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
-	}
-	
-	inline void delay(uint16_t ms) {
-		return std::this_thread::sleep_for(std::chrono::milliseconds(ms - 8));
-	}
-	
-	inline bool digitalRead(byte value) {
-		return PinPressed;
-	};
-#endif;
-
 class BoardButton {
 private:
 	byte Pin = 0;
