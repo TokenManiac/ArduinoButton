@@ -2,7 +2,7 @@
 	= EnoH.hpp
 
 	? Why?
-	> Because other button libraries arnt complicated enogh!!!
+	> Because yes!!!
 
 	? What is the point of using this?
 	> There's none, other than making buttons easier for you ;D
