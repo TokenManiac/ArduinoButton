@@ -1,5 +1,5 @@
 /*
-	= EnoH.hpp
+	= ButtonHandler.hpp
 
 	Q> What does this do?
 	A> This C++ file makes buttons easier to handle in your program, therefore easier to read.
