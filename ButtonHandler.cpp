@@ -1,10 +1,7 @@
 /*
 	= ButtonHandler.hpp
 
-	Q> What does this do?
-	A> This C++ file makes buttons easier to handle in your program, therefore easier to read.
-
-	=== REFER TO MIT LICENSE === > https://github.com/SyntaxMenace/ArduinoButton/blob/main/LICENSE
+	This headerfile makes buttons easier to handle in your program, removing headaches for beginners to ardunio programming!
 */
 
 class BoardButton {
